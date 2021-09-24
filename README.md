@@ -38,10 +38,10 @@ Create a `Restaurant` model with the following attributes:
 - `star_rating` that is an `integer` type
 - `cuisine` that is a `string` type
 
-Your `User` model should also:
+Your `Restuarant` model should also:
 
 - validate the restaurant's name to ensure that it is **present** and **unique**
-  (no two users can have the same username)
+  (no two restaurants can have the same name)
 - validate the restaurants star_rating is between 1 and 5
 
 Run the migrations after creating your models.
